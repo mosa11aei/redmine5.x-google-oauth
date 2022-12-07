@@ -8,7 +8,7 @@ Download the plugin and install required gems:
 
 ```console
 cd /path/to/redmine/plugins
-git clone https://github.com/twinslash/redmine_omniauth_google.git
+git clone https://github.com/7Linternational/redmine_omniauth_google.git
 cd /path/to/redmine
 bundle install
 ```
