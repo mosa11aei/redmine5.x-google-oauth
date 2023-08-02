@@ -1,6 +1,7 @@
-## Redmine omniauth google
+## Redmine - Google OAuth
+> Fork of https://github.com/twinslash/redmine_omniauth_google
 
-This plugin is used to authenticate Redmine users using Google's OAuth2 provider.
+This plugin is used to authenticate Redmine users using Google's OAuth2 provider. It has been updated to support Redmine 5.x.
 
 ### Installation:
 
@@ -15,7 +16,7 @@ bundle install
 
 Restart the app
 ```console
-touch /path/to/redmine/tmp/restart.txt
+sudo systemctl restart apache2 
 ```
 
 ### Registration
@@ -46,9 +47,6 @@ To authenticate via Google you must first register your redmine instance via the
 * Click Apply. 
  
 Users can now to use their Google Account to log in to your instance of Redmine.
-
-Additionaly
-* Setup value Autologin in Settings on tab Authentification
 
 ### Other options
 
